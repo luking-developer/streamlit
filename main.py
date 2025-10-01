@@ -1,5 +1,5 @@
 import streamlit as st
-import polars as pd
+import pandas as pd
  
 st.write("""
 # My first app
