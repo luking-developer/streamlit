@@ -8,6 +8,6 @@ Hello *world!*
  
 df = pd.read_csv("car_sales_data.csv")
 
-st.line_chart(df, y="Manufacturer")
+st.bar_chart(df, y="Manufacturer")
 
 st.write(df.head())
